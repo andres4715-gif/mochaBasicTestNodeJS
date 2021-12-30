@@ -1,7 +1,11 @@
-var Hola = require("../helpers/methods/gettingJsonData");
+var Operations = require("../helpers/methods/gettingJsonData");
 
 describe("Sumando", function () {
-  it("sumando1", function () {
-    Hola.sumando();
+  it("sumando", function () {
+    Operations.sumando(1, 4);
+  });
+
+  it("restando", function () {
+    Operations.positiveNumber(78, 9);
   });
 });
