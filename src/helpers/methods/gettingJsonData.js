@@ -10,8 +10,8 @@ class Operations {
 
   positiveNumber(num1, num2) {
     const totalResta = num1 - num2;
-    console.log(totalResta);
     const positive = totalResta >= 0 ? true : false;
+    console.log(positive);
     assert.isTrue(positive, "The number negative, please check it...");
   }
 }
