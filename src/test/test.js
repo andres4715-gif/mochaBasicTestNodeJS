@@ -1,4 +1,4 @@
-var Hola = require("../../methods/gettingJsonData");
+var Hola = require("../helpers/methods/gettingJsonData");
 
 describe("Sumando", function () {
   it("sumando1", function () {
