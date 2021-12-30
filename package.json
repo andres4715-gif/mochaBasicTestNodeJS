@@ -1,0 +1,15 @@
+{
+  "name": "checkingnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "mocha": "^9.1.3"
+  }
+}
