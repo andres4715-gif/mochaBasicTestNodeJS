@@ -30,8 +30,4 @@ Data.members.forEach((person) => person.name);
 
 console.log("_______Powers super hero________");
 
-// console.log(Data.members[0].powers[0]);
-
-Data.members.forEach((hero) =>
-  console.log(hero.powers.forEach((x) => console.log(x)))
-);
+Data.members.forEach((hero) => hero.powers.forEach((x) => console.log(x)));

@@ -33,6 +33,18 @@
         "Interdimensional travel",
         "universe travel"
       ]
+    },
+    {
+      "name": "jacuayake",
+      "age": 200000,
+      "secretIdentity": "ms tommas",
+      "powers": ["fly", "disappear"]
+    },
+    {
+      "name": "jakamaki",
+      "age": 200,
+      "secretIdentity": "jaka",
+      "powers": ["red faster", "listen so far"]
     }
   ]
 }
