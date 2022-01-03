@@ -44,7 +44,13 @@
       "name": "jakamaki",
       "age": 200,
       "secretIdentity": "jaka",
-      "powers": ["red faster", "listen so far"]
+      "powers": ["read faster", "listen so far"]
+    },
+    {
+      "name": "Acuachica",
+      "age": 201,
+      "secretIdentity": "chica",
+      "powers": ["swin faster", "run like flash"]
     }
   ]
 }

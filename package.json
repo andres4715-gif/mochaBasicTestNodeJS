@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha src/**/*.js",
-    "json": "mocha src/test/jsonTest.js"
+    "json": "mocha src/test/jsonTest.js",
+    "cities": "mocha src/test/checkCities.js"
   },
   "author": "",
   "license": "ISC",

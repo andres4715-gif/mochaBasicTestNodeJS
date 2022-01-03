@@ -30,4 +30,10 @@ Data.members.forEach((person) => person.name);
 
 console.log("_______Powers super hero________");
 
-Data.members.forEach((hero) => hero.powers.forEach((x) => console.log(x)));
+// Data.members.forEach((hero) => hero.powers.forEach((x) => console.log(x)));
+
+let powers = [];
+for (let i = 0; i < Data.members.length; i++) {
+  powers.push(...Data.members[i].powers);
+}
+console.log(powers);
