@@ -1,39 +1,69 @@
 var Data = require("../../resourses/data.json");
 
-// console.log(Data);
-//
-// console.log(Data.squadName);
-// console.log(Data.homeTown);
-// console.log(Data.formed);
-// console.log(Data.secretBase);
-// console.log(Data.active);
-// console.log(Data.members[0]);
+// Getting data from Json file.
 
-// console.log(Data.members[0].name);
-// console.log(Data.members[0].age);
-// console.log(Data.members[0].secretIdentity);
-// console.log(Data.members[0].powers);
+// Getting the squadName:
+const squadName = Data.squadName;
+console.log(squadName);
 
-// console.log(Data.members[0].name);
-// console.log(Data.members[1].name);
-// console.log(Data.members[2].name);
+// Getting the homeTown:
+const homeTown = Data.homeTown;
+console.log(homeTown);
 
-Data.members.forEach(function (superHero) {
-  console.log(superHero.name);
-});
+// Getting formed;
+const formed = Data.formed;
+console.log(formed);
 
-console.log("________Names super Hero_________");
+// Getting secretBase;
+const secretBase = Data.secretBase;
+console.log(secretBase);
 
-Data.members.forEach((person) => console.log(person.name));
+// Getting active
+const active = Data.active;
+console.log(active);
 
-Data.members.forEach((person) => person.name);
+console.log("====================ARRAYS===================\n");
 
-console.log("_______Powers super hero________");
+// Getting Members names in array;
+console.log(">>>>>> super Hero Names >>>>>>>\n");
 
-// Data.members.forEach((hero) => hero.powers.forEach((x) => console.log(x)));
+let superHeroNames = [];
+for (let i = 0; i < Data.members.length; i++) {
+  superHeroNames.push(Data.members[i].name);
+}
+console.log(superHeroNames);
+
+console.log("===========================================\n");
+
+// Getting super hero Age
+console.log(">>>>>> super Hero Age >>>>>>>\n");
+
+let superHeroAge = [];
+for (let i = 0; i < Data.members.length; i++) {
+  superHeroAge.push(Data.members[i].age);
+}
+console.log(superHeroAge);
+
+console.log("===========================================\n");
+
+// Getting super hero secretIdentity
+console.log(">>>>>> super Hero secretIdentity >>>>>>>\n");
+
+let secretIdentity = [];
+for (let i = 0; i < Data.members.length; i++) {
+  secretIdentity.push(Data.members[i].secretIdentity);
+}
+console.log(secretIdentity);
+
+console.log("===========================================\n");
+
+// Getting super hero powers
+console.log(">>>>>> super Hero powers >>>>>>>\n");
 
 let powers = [];
 for (let i = 0; i < Data.members.length; i++) {
   powers.push(...Data.members[i].powers);
 }
 console.log(powers);
+
+console.log("===========================================\n");
