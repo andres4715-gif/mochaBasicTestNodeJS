@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha src/**/*.js",
     "json": "mocha src/test/jsonTest.js",
-    "cities": "mocha src/test/checkCities.js"
+    "cities": "mocha src/test/checkCities.js",
+    "palindrome": "mocha src/test/palindrome.js"
   },
   "author": "",
   "license": "ISC",
