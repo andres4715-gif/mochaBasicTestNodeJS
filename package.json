@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha src/**/*.js",
-    "json": "mocha src/test/jsonTest.js",
-    "cities": "mocha src/test/checkCities.js",
-    "palindrome": "mocha src/test/palindrome.js",
+    "test": "mocha src/test/**/*.js",
+    "json": "mocha src/test/jsonTest/jsonTest.js",
+    "cities": "mocha src/test/globalPractice/checkCities.js",
+    "palindrome": "mocha src/test/palindrome.test.js",
     "api_test": "mocha src/test/apiTesting/api_get.axios.js",
-    "api_axios_test": "mocha src/test/apiTesting/get.axios.test.js"
+    "api_axios_test": "mocha src/test/apiTesting/get.axios.test.js",
+    "my_first_promise": "mocha src/test/promise/miFirstPromise.test.js"
   },
   "author": "",
   "license": "ISC",
