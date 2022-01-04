@@ -8,7 +8,7 @@
     "json": "mocha src/test/jsonTest.js",
     "cities": "mocha src/test/checkCities.js",
     "palindrome": "mocha src/test/palindrome.js",
-    "api_test": "mocha src/test/apiTesting/api_get.js"
+    "api_test": "mocha src/test/apiTesting/api_get.axios.js"
   },
   "author": "",
   "license": "ISC",
