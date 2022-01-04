@@ -7,7 +7,8 @@
     "test": "mocha src/**/*.js",
     "json": "mocha src/test/jsonTest.js",
     "cities": "mocha src/test/checkCities.js",
-    "palindrome": "mocha src/test/palindrome.js"
+    "palindrome": "mocha src/test/palindrome.js",
+    "api_test": "mocha src/test/apiTesting/api_get.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "mocha": "^9.1.3"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "chai": "^4.3.4"
   }
 }
