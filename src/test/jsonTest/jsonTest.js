@@ -1,4 +1,4 @@
-var Data = require("../../resourses/data.json");
+var Data = require("../../../resourses/data.json");
 
 // Getting data from Json file.
 
