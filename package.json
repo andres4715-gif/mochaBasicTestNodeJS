@@ -10,7 +10,8 @@
     "palindrome": "mocha src/test/palindrome.test.js",
     "api_test": "mocha src/test/apiTesting/api_get.axios.js",
     "api_axios_test": "mocha src/test/apiTesting/get.axios.test.js",
-    "my_first_promise": "mocha src/test/promise/miFirstPromise.test.js"
+    "my_first_promise": "mocha src/test/promise/miFirstPromise.test.js",
+    "super_hero_marvel_test": "mocha src/test/jsonSuperHero.test.js"
   },
   "author": "",
   "license": "ISC",
