@@ -25,4 +25,6 @@ axios({
   console.log(response.status);
   console.log(response.statusText);
   console.log(response.data);
+  console.log(response.config);
+  console.log(response.headers.date);
 });
