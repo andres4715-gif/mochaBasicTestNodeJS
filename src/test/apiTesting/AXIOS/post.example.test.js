@@ -1,7 +1,6 @@
 const axios = require("axios").default;
 
 // POST
-
 axios
   .post("https://reqres.in/api/users", {
     name: "morpheus",
