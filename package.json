@@ -15,6 +15,7 @@
     "api_axios_get_array": "mocha src/test/apiTesting/AXIOS/get.check.array.test.js",
     "api_axios_get_example": "mocha src/test/apiTesting/AXIOS/get.example.test.js",
     "api_axios_post_example": "mocha src/test/apiTesting/AXIOS/post.example.test.js",
+    "api_chaiAndMocha_example": "mocha src/test/apiTesting/mochaAndchai/apitest.js",
     "fsbp_us_get_catalog_documentSearch_test": "mocha src/test/apiTesting/AXIOS_FSBP/FSBP_Web_services_US/Catalog/documents.search.js"
   },
   "author": "",
@@ -25,6 +26,8 @@
   },
   "dependencies": {
     "axios": "^0.24.0",
-    "chai": "^4.3.4"
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "superagent": "^6.1.0"
   }
 }
