@@ -8,11 +8,14 @@
     "json": "mocha src/test/jsonTest/jsonTest.js",
     "cities": "mocha src/test/globalPractice/checkCities.js",
     "palindrome": "mocha src/test/palindrome.test.js",
+    "readingNewFile": "mocha src/test/readingFile/readingNewFile.js",
     "my_first_promise": "mocha src/test/promise/miFirstPromise.test.js",
+    "my_first_promise1": "mocha src/test/promise/miPromise1.test.js",
     "super_hero_marvel_test": "mocha src/test/jsonSuperHero.test.js",
     "api_axios_get_array": "mocha src/test/apiTesting/AXIOS/get.check.array.test.js",
     "api_axios_get_example": "mocha src/test/apiTesting/AXIOS/get.example.test.js",
-    "api_axios_post_example": "mocha src/test/apiTesting/AXIOS/post.example.test.js"
+    "api_axios_post_example": "mocha src/test/apiTesting/AXIOS/post.example.test.js",
+    "fsbp_us_get_catalog_documentSearch_test": "mocha src/test/apiTesting/AXIOS_FSBP/FSBP_Web_services_US/Catalog/documents.search.js"
   },
   "author": "",
   "license": "ISC",
