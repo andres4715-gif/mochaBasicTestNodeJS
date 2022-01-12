@@ -225,7 +225,6 @@ describe("Check the API status code ", () => {
           res.body.support.text,
           "Check why the support.text is a null value"
         );
-
         done();
       });
   });
