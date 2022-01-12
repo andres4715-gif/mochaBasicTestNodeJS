@@ -6,7 +6,7 @@ chai.use(chaiHttp);
 
 const url = "https://api-stage.firestonebpco.com";
 
-describe("Check the API status code ", () => {
+describe("Check the FSBP API status code ", () => {
   it("should get and compare the status code", (done) => {
     chai
       .request(url)
