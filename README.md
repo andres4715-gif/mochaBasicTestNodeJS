@@ -5,3 +5,6 @@ https://github.com/paradigmadigital/ChaiHttp-sample/blob/master/test/testChaiHTT
 
 chai-http/
 https://www.chaijs.com/plugins/chai-http/
+
+github
+https://github.com/chaijs/chai-http
