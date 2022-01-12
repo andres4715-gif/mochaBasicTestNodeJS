@@ -6,13 +6,20 @@ chai.use(chaiHttp);
 
 const url = "https://api-stage.firestonebpco.com";
 
-describe("Check the FSBP API status code ", () => {
+describe("GET FSBP API response for Document Search  ", () => {
   it("should get and compare the status code", (done) => {
     chai
       .request(url)
-      .get(
-        "/solr/site_search/select?q=roof&fq=(country:us)&fq=(language:en)&fq=(type:assets)&rows=10&facet.field=documentType&facet=true"
-      )
+      .get("/solr/site_search/select")
+      .query({
+        q: "roof",
+        fq: "country:us",
+        fq: "language:en",
+        fq: "type:assets",
+        rows: 10,
+        "facet.field": "documentType",
+        facet: true,
+      })
       .end(function (err, res) {
         console.log(res.body);
         console.log("The status code: ", res.statusCode);
