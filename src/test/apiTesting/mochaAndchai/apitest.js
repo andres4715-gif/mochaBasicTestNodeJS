@@ -198,4 +198,35 @@ describe("Check the API status code ", () => {
         done();
       });
   });
+
+  it("should be able to check if support is not a null value and is a string", (done) => {
+    chai
+      .request(url)
+      .get("users?page=1")
+      .end(function (err, res) {
+        assert.isObject(
+          res.body.support,
+          "Check why the support value is not an object"
+        );
+        assert.isString(
+          res.body.support.url,
+          "Check why the support.url is not a string"
+        );
+        assert.include(res.body.support.url, "https://");
+        assert.isNotNull(
+          res.body.support.url,
+          "Check why the support.url is a null value"
+        );
+        assert.isString(
+          res.body.support.text,
+          "Check why the support.text is not a string"
+        );
+        assert.isNotNull(
+          res.body.support.text,
+          "Check why the support.text is a null value"
+        );
+
+        done();
+      });
+  });
 });
