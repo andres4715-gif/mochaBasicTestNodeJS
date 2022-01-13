@@ -4,6 +4,11 @@ const assert = require("chai").assert;
 
 chai.use(chaiHttp);
 
+const ids = [];
+const title = [];
+const sortingTitle = [];
+const tags = [];
+
 const params = {
   q: "roof",
   "facet.field": "documentType",
@@ -57,10 +62,6 @@ describe("GET FSBP API response for Document Search  ", () => {
   });
 
   it("should get the response docs (object) and compare de element object", (done) => {
-    const ids = [];
-    const title = [];
-    const sortingTitle = [];
-    const tags = [];
     chai
       .request(url)
       .get(endPoint)
@@ -79,11 +80,7 @@ describe("GET FSBP API response for Document Search  ", () => {
           assert.isNotNull(title[i], "title must not be null");
           assert.typeOf(title[i], "string", "title, it is not a string");
           assert.isNotNull(sortingTitle[i], "sortingTitle must not be null");
-          assert.typeOf(
-            sortingTitle[i],
-            "string",
-            "sortingTitle is not string"
-          );
+          assert.typeOf(sortingTitle[i], "string", "sortingTitle is't string");
           assert.typeOf(tags[i], "string", "tags, it is not a string");
           assert.include(tags[i], "firestone-");
         }
