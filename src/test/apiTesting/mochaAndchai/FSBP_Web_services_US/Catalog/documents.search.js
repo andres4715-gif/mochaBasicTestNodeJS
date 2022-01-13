@@ -31,7 +31,7 @@ describe("GET FSBP API response for Document Search  ", () => {
       });
   });
 
-  it("should get the response and compare de element object", (done) => {
+  it("should get the response and compare de element", (done) => {
     chai
       .request(url)
       .get(endPoint)
@@ -47,10 +47,45 @@ describe("GET FSBP API response for Document Search  ", () => {
           assert.typeOf(
             response[i],
             "number",
-            "Check the numFound it is not a number value"
+            "Check the numFound, it is not a number value"
           );
           assert.isNotNull(response[i], "Check the numFound must not be null");
           assert.isTrue(response[i] >= 0);
+        }
+        done();
+      });
+  });
+
+  it("should get the response docs (object) and compare de element object", (done) => {
+    const ids = [];
+    const title = [];
+    const sortingTitle = [];
+    const tags = [];
+    chai
+      .request(url)
+      .get(endPoint)
+      .query(params)
+      .end(function (err, res) {
+        for (let i = 0; i < res.body.response.docs.length; i++) {
+          ids.push(res.body.response.docs[i].id);
+          title.push(res.body.response.docs[i].title);
+          sortingTitle.push(res.body.response.docs[i].sortingTitle);
+          tags.push(...res.body.response.docs[i].tags);
+
+          // Asserts
+          assert.isNotNull(ids[i], "Check the id must not be null");
+          assert.include(ids[i], "/content/dam/fsbp/migrated-document");
+          assert.typeOf(ids[i], "string", "id, it is not a string");
+          assert.isNotNull(title[i], "title must not be null");
+          assert.typeOf(title[i], "string", "title, it is not a string");
+          assert.isNotNull(sortingTitle[i], "sortingTitle must not be null");
+          assert.typeOf(
+            sortingTitle[i],
+            "string",
+            "sortingTitle is not string"
+          );
+          assert.typeOf(tags[i], "string", "tags, it is not a string");
+          assert.include(tags[i], "firestone-");
         }
         done();
       });
