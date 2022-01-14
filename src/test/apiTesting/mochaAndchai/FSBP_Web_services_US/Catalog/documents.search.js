@@ -8,6 +8,9 @@ const ids = [];
 const title = [];
 const sortingTitle = [];
 const tags = [];
+const country = [];
+const locale = [];
+const language = [];
 
 const params = {
   q: "roof",
@@ -27,11 +30,7 @@ describe("GET FSBP API response for Document Search  ", () => {
       .get(endPoint)
       .query(params)
       .end(function (err, res) {
-        assert.equal(
-          res.status,
-          "200",
-          "The status code is not the correct answer"
-        );
+        assert.equal(res.status, "200", "The status code is not equal 200");
         done();
       });
   });
@@ -72,6 +71,9 @@ describe("GET FSBP API response for Document Search  ", () => {
           title.push(res.body.response.docs[i].title);
           sortingTitle.push(res.body.response.docs[i].sortingTitle);
           tags.push(...res.body.response.docs[i].tags);
+          country.push(res.body.response.docs[i].country);
+          locale.push(res.body.response.docs[i].locale);
+          language.push(res.body.response.docs[i].language);
 
           // Asserts
           assert.isNotNull(ids[i], "Check the id must not be null");
@@ -83,6 +85,14 @@ describe("GET FSBP API response for Document Search  ", () => {
           assert.typeOf(sortingTitle[i], "string", "sortingTitle is't string");
           assert.typeOf(tags[i], "string", "tags, it is not a string");
           assert.include(tags[i], "firestone-");
+          assert.isNotNull(country[i], "Check the country must not be null");
+          assert.typeOf(country[i], "string", "Country, it is not a string");
+          assert.strictEqual(country[i] === "us", true, "The country is US");
+          assert.include(locale[i], "us", "array does't contains the us value");
+          assert.include(locale[i], "en", "array does't contains the en value");
+          assert.isNotNull(language[i], "Check language must not be null");
+          assert.typeOf(language[i], "string", "language, it is not a string");
+          assert.equal(language[i], "en", "language is not en");
         }
         done();
       });
