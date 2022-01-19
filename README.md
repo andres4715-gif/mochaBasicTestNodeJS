@@ -8,6 +8,3 @@ https://www.chaijs.com/plugins/chai-http/
 
 github
 https://github.com/chaijs/chai-http
-
-// borrando la prueba desde master.
-// desde la maquina local
