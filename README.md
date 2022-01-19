@@ -9,4 +9,4 @@ https://www.chaijs.com/plugins/chai-http/
 github
 https://github.com/chaijs/chai-http
 
-// esta es la prueba con confictos.
+// borrando la prueba desde master.
