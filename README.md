@@ -10,4 +10,4 @@ github
 https://github.com/chaijs/chai-http
 
 // borrando la prueba desde master.
-// desde el editor
+// desde la maquina local
