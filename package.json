@@ -15,6 +15,7 @@
     "my_promise3": "mocha src/test/promise/miPromise3.test.js",
     "my_promise4": "mocha src/test/promise/miPromise4.test.js",
     "my_promise5": "mocha src/test/promise/miPromise5.test.js",
+    "examplepromise1": "mocha src/test/promise/examplePromise1.test.js",
     "super_hero_marvel_test": "mocha src/test/jsonSuperHero.test.js",
     "api_axios_get_array": "mocha src/test/apiTesting/AXIOS/get.check.array.test.js",
     "api_axios_get_example": "mocha src/test/apiTesting/AXIOS/get.example.test.js",
