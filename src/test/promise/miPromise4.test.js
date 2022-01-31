@@ -23,6 +23,6 @@ getAdd.then((response) => {
     console.log("The Multiplication result is: ", Multiplication);
     return Multiplication;
   } else {
-    console.log("Multiplication isn't neccesary");
+    console.log("Multiplication isn't necessary");
   }
 });
