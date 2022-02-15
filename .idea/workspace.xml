@@ -25,7 +25,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Mocha.GET FSBP API response for Document Search  ">
+  <component name="RunManager" selected="npm.my_promise4">
+    <configuration name="examplepromise2" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="examplepromise2" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="fsbp_us_get_catalog_documentSearch_test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -37,19 +47,14 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Cheking super Hero" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/src/test/jsonSuperHero.test.js</test-file>
-      <test-names>
-        <name value="Cheking super Hero" />
-      </test-names>
+    <configuration name="my_promise4" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="my_promise4" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="GET FSBP API response for Document Search  .should get and compare the status code" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
@@ -65,22 +70,6 @@
       <test-names>
         <name value="GET FSBP API response for Document Search  " />
         <name value="should get and compare the status code" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="GET FSBP API response for Document Search  .should get the response and compare de element" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>/usr/local/bin/node</node-interpreter>
-      <node-options />
-      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/src/test/apiTesting/mochaAndchai/FSBP_Web_services_US/Catalog/documents.search.js</test-file>
-      <test-names>
-        <name value="GET FSBP API response for Document Search  " />
-        <name value="should get the response and compare de element" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -101,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.my_promise4" />
+        <item itemvalue="npm.examplepromise2" />
+        <item itemvalue="npm.fsbp_us_get_catalog_documentSearch_test" />
         <item itemvalue="Mocha.GET FSBP API response for Document Search  " />
         <item itemvalue="Mocha.GET FSBP API response for Document Search  .should get and compare the status code" />
-        <item itemvalue="Mocha.GET FSBP API response for Document Search  .should get the response and compare de element" />
-        <item itemvalue="npm.fsbp_us_get_catalog_documentSearch_test" />
-        <item itemvalue="Mocha.Cheking super Hero" />
       </list>
     </recent_temporary>
   </component>
