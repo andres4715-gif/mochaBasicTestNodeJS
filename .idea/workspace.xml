@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b38322f3-6473-416c-8f3a-d2cb5639ac3c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,14 +29,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Mocha.Cheking super Hero">
-    <configuration name="super_hero_marvel_test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Mocha.GET FSBP API response for Document Search  ">
+    <configuration name="fsbp_us_get_catalog_documentSearch_test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="super_hero_marvel_test" />
+        <script value="fsbp_us_get_catalog_documentSearch_test" />
       </scripts>
-      <node-interpreter value="project" />
+      <node-interpreter value="/usr/local/bin/node" />
+      <package-manager value="$PROJECT_DIR$/node_modules/npm" />
       <envs />
       <method v="2" />
     </configuration>
@@ -53,8 +56,8 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Cheking super Hero.checking the Marvel and DC comics Super hero" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
+    <configuration name="GET FSBP API response for Document Search  .should get and compare the status code" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>/usr/local/bin/node</node-interpreter>
       <node-options />
       <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -62,18 +65,51 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/src/test/jsonSuperHero.test.js</test-file>
+      <test-file>$PROJECT_DIR$/src/test/apiTesting/mochaAndchai/FSBP_Web_services_US/Catalog/documents.search.js</test-file>
       <test-names>
-        <name value="Cheking super Hero" />
-        <name value="checking the Marvel and DC comics Super hero" />
+        <name value="GET FSBP API response for Document Search  " />
+        <name value="should get and compare the status code" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="GET FSBP API response for Document Search  .should get the response and compare de element" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>/usr/local/bin/node</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/src/test/apiTesting/mochaAndchai/FSBP_Web_services_US/Catalog/documents.search.js</test-file>
+      <test-names>
+        <name value="GET FSBP API response for Document Search  " />
+        <name value="should get the response and compare de element" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="GET FSBP API response for Document Search  " type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/src/test/apiTesting/mochaAndchai/FSBP_Web_services_US/Catalog/documents.search.js</test-file>
+      <test-names>
+        <name value="GET FSBP API response for Document Search  " />
       </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Mocha.GET FSBP API response for Document Search  " />
+        <item itemvalue="Mocha.GET FSBP API response for Document Search  .should get and compare the status code" />
+        <item itemvalue="Mocha.GET FSBP API response for Document Search  .should get the response and compare de element" />
+        <item itemvalue="npm.fsbp_us_get_catalog_documentSearch_test" />
         <item itemvalue="Mocha.Cheking super Hero" />
-        <item itemvalue="Mocha.Cheking super Hero.checking the Marvel and DC comics Super hero" />
-        <item itemvalue="npm.super_hero_marvel_test" />
       </list>
     </recent_temporary>
   </component>
@@ -90,6 +126,8 @@
       <workItem from="1641319819565" duration="22000" />
       <workItem from="1641395494170" duration="6150000" />
       <workItem from="1643723554753" duration="5596000" />
+      <workItem from="1644895671176" duration="2119000" />
+      <workItem from="1644927334657" duration="474000" />
     </task>
     <servers />
   </component>
