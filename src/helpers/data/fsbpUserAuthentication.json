@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "userName": "dunant",
+      "userParam": "Pass-999",
+      "countryCode": "us",
+      "rememberMe": false
+    },
+    {
+      "userName": "Costanza",
+      "userParam": "Pass-999",
+      "countryCode": "us",
+      "rememberMe": false
+    },
+    {
+      "userName": "Benes",
+      "userParam": "Pass-999",
+      "countryCode": "us",
+      "rememberMe": false
+    }
+  ]
+}

@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b38322f3-6473-416c-8f3a-d2cb5639ac3c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,22 +33,22 @@
       <recent name="$PROJECT_DIR$/src/helpers/data" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.json_server_test1">
-    <configuration name="json_server_test1" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.fsbp_us_post_authentication_account_test">
+    <configuration name="fsbp_us_post_authentication_account_test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="json_server_test1" />
+        <script value="fsbp_us_post_authentication_account_test" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="my_promise4" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="json_server_test1" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="my_promise4" />
+        <script value="json_server_test1" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -105,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.fsbp_us_post_authentication_account_test" />
         <item itemvalue="npm.json_server_test1" />
         <item itemvalue="Mocha.check user json server.should get and compare the status code" />
         <item itemvalue="Mocha.check user json server" />
         <item itemvalue="Mocha.check user json server.should create an new user" />
-        <item itemvalue="npm.my_promise4" />
       </list>
     </recent_temporary>
   </component>
