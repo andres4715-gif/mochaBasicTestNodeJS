@@ -11,6 +11,13 @@
     "readingNewFile": "mocha src/test/readingFile/readingNewFile.js",
     "my_first_promise": "mocha src/test/promise/miFirstPromise.test.js",
     "my_first_promise1": "mocha src/test/promise/miPromise1.test.js",
+    "my_promise2": "mocha src/test/promise/miPromise2.test.js",
+    "my_promise3": "mocha src/test/promise/miPromise3.test.js",
+    "my_promise4": "mocha src/test/promise/miPromise4.test.js",
+    "my_promise5": "mocha src/test/promise/miPromise5.test.js",
+    "examplepromise1": "mocha src/test/promise/examplePromise1.test.js",
+    "examplepromise2": "mocha src/test/promise/examplePromise2.test.js",
+    "examplepromise3": "mocha src/test/promise/examplePromise3.test.js",
     "super_hero_marvel_test": "mocha src/test/jsonSuperHero.test.js",
     "api_axios_get_array": "mocha src/test/apiTesting/AXIOS/get.check.array.test.js",
     "api_axios_get_example": "mocha src/test/apiTesting/AXIOS/get.example.test.js",
@@ -28,6 +35,7 @@
     "axios": "^0.24.0",
     "chai": "^4.3.4",
     "chai-http": "^4.3.0",
+    "npm": "^8.5.0",
     "superagent": "^6.1.0"
   }
 }
