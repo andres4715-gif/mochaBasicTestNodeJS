@@ -4,6 +4,7 @@
     <list default="true" id="b38322f3-6473-416c-8f3a-d2cb5639ac3c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/data/users.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/helpers/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/apiTesting/mochaAndchai" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -30,15 +31,26 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/apiTesting/mochaAndchai" />
       <recent name="$PROJECT_DIR$/src/helpers/data" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.fsbp_us_post_authentication_account_test">
+  <component name="RunManager" selected="npm.json_server_patch_test1">
     <configuration name="fsbp_us_post_authentication_account_test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="fsbp_us_post_authentication_account_test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="json_server_patch_test1" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="json_server_patch_test1" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -54,22 +66,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="check user json server" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/src/test/apiTesting/mochaAndchai/jsonSeverTest.js</test-file>
-      <test-names>
-        <name value="check user json server" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="check user json server.should create an new user" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+    <configuration name="Doing PUT method.Updating user with PUT method" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
@@ -78,10 +75,10 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/src/test/apiTesting/mochaAndchai/jsonSeverTest.js</test-file>
+      <test-file>$PROJECT_DIR$/src/test/apiTesting/mochaAndchai/patch_example.js</test-file>
       <test-names>
-        <name value="check user json server" />
-        <name value="should create an new user" />
+        <name value="Doing PUT method" />
+        <name value="Updating user with PUT method" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -103,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.json_server_patch_test1" />
+        <item itemvalue="Mocha.Doing PUT method.Updating user with PUT method" />
         <item itemvalue="npm.fsbp_us_post_authentication_account_test" />
         <item itemvalue="npm.json_server_test1" />
         <item itemvalue="Mocha.check user json server.should get and compare the status code" />
-        <item itemvalue="Mocha.check user json server" />
-        <item itemvalue="Mocha.check user json server.should create an new user" />
       </list>
     </recent_temporary>
   </component>
