@@ -9,20 +9,14 @@ const userId = 1
 const baseUrl = "http://localhost:3000"
 const endpont = `/users/${userId}`
 
-const newUserDataInformation = {
-    "last_name": "Pausiny Arteaga 2"
-}
-
-describe("Doing PATCH method", () => {
-    it("Updating user with PATCH method", (done) => {
+describe("Doing delete method", () => {
+    it("Updating user with DELETE method", (done) => {
         chai
             .request(baseUrl)
-            .patch(endpont)
-            .send(newUserDataInformation)
+            .delete(endpont)
             .end(function (err, res) {
                 console.log("The status is: ", res.status);
-                console.log("Updated: ", res.body);
-                console.log("The new id is: ", res.body.id);
+                assert.equal(res.status, 200, 'The status code should be 200');
             })
         done();
     })

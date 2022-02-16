@@ -27,7 +27,8 @@
     "fsbp_us_post_authentication_account_test": "mocha src/test/apiTesting/mochaAndchai/FSBP_Web_services_US/Account/Authenticate.js",
     "json_server_test1": "mocha src/test/apiTesting/mochaAndchai/jsonSeverTest.js",
     "json_server_put_test1": "mocha src/test/apiTesting/mochaAndchai/put_example.js",
-    "json_server_patch_test1": "mocha src/test/apiTesting/mochaAndchai/patch_example.js"
+    "json_server_patch_test1": "mocha src/test/apiTesting/mochaAndchai/patch_example.js",
+    "json_server_delete_test1": "mocha src/test/apiTesting/mochaAndchai/delete_example.js"
   },
   "author": "",
   "license": "ISC",
