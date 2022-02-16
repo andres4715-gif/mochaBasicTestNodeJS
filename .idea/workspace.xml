@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b38322f3-6473-416c-8f3a-d2cb5639ac3c" name="Changes" comment="workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/apiTesting/mochaAndchai/jsonSeverTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/apiTesting/mochaAndchai/jsonSeverTest.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +123,7 @@
       <workItem from="1643723554753" duration="5596000" />
       <workItem from="1644895671176" duration="2119000" />
       <workItem from="1644927334657" duration="975000" />
-      <workItem from="1645013709658" duration="69000" />
+      <workItem from="1645013709658" duration="3068000" />
     </task>
     <servers />
   </component>
